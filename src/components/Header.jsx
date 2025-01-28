@@ -1,8 +1,9 @@
-export default function Header(){
-    return (
-        <header>
-            <img src="src/assets/Chef Claude Icon.png" alt="chef-icon"/>
-            <h1>Chef Claude</h1>
-        </header>
-    )
+import chefClaudeIcon from "../assets/Chef Claude Icon.png";
+export default function Header() {
+  return (
+    <header>
+      <img src={chefClaudeIcon} alt="chef-icon" />
+      <h1>Chef Claude</h1>
+    </header>
+  );
 }

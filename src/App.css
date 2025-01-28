@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Inter sans-serif;
+    font-family: Inter, sans-serif;
     background-color: #FAFAF8;
 }
 
@@ -28,4 +28,47 @@ header > h1{
     font-weight:400;
     font-size:32px;
     line-height:60px;
+}
+
+/** form css **/
+
+main {
+    padding: 30px 30px 10px;
+}
+
+.add-ingredient-form{
+    display: flex;
+    justify-content: center;
+    gap:12px;
+    height:38px;
+}
+
+.add-ingredient-form > input{
+    border-radius:6px;
+    border:1px solid #D1D5DB;
+    color: #6B7280;
+    padding:9px 13px;
+    font-weight:400;
+    font-size:14px;
+    line-height:20px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    flex-grow:1;
+    min-width:150px;
+    max-width:300px;
+}
+
+.add-ingredient-form > button{
+    background-color: #141413;
+    color: #FAFAF8;
+    font-size:14px;
+    font-weight:500;
+    line-height:20px;
+    padding:9px 35.5px;
+    border-radius:6px;
+    width:183px;
+}
+
+.add-ingredient-form > button::before {
+    content: "+";
+    margin-right: 5px;
 }
