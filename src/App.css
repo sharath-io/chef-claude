@@ -129,6 +129,11 @@ section li{
     font-weight: 400;
 }
 
+.suggested-recipe-container > h2{
+    margin:15px 0;
+    color: #141413;
+}
+
 .suggested-recipe-container ul li, .suggested-recipe-container ol li {
     margin-bottom: 8px;
 }
